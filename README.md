@@ -14,4 +14,4 @@ This website is all about me and all the Lab 02 Requirments.
 
 ### Lighthouse Accessibility Report Score
 
-<!-- ![alt text](Isolated.png "Title") -->
+![Lighthouse](Screenshot 2023-09-12 153335.jpg)
