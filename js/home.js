@@ -10,6 +10,6 @@ function getUserInput() {
 }
 
 getUserInput();
-alert('Your Name Is ' + userName);
+alert('Your Name Is: ' + userName);
 
 document.write('Hello ' + userName + '!' + ' Welcome to my website!');
