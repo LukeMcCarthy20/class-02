@@ -101,26 +101,26 @@ alert('Guessing game time!');
 
 let maxAttempts = 4;
 
-// for (let attempt = 0; attempt < maxAttempts; attempt++) {
-//   let guess = prompt('Enter a guess between 1-10');
-//   guess = parseInt(guess);
-//   console.log(guess);
-//   if (guess === 7) {
-//     alert('You guessed the secret number!');
-//     points = points + 1;
-//     break;
-//   } else if (guess < 7) {
-//     alert('Too low');
-//   } else if (guess > 7) {
-//     alert('Too high');
-//   } else {
-//     alert('Invalid Input');
-//   }
-// }
+for (let attempt = 0; attempt < maxAttempts; attempt++) {
+  let guess = prompt('Enter a guess between 1-10');
+  guess = parseInt(guess);
+  console.log(guess);
+  if (guess === 7) {
+    alert('You guessed the secret number!');
+    points = points + 1;
+    break;
+  } else if (guess < 7) {
+    alert('Too low');
+  } else if (guess > 7) {
+    alert('Too high');
+  } else {
+    alert('Invalid Input');
+  }
+}
 
 let maxAttempts2 = 6;
 
-let answers = ['football','tenis','volleyball'];
+let answers = ['football','tennis','volleyball'];
 
 alert('What sport did I play?');
 
@@ -149,6 +149,6 @@ for (let attempt = 0; attempt < maxAttempts2; attempt++) {
 
 console.log('Users Points: ' + points);
 
-let maxPoints = 6;
+let maxPoints = 7;
 
 alert('You scored: ' + points + ' Out of ' + maxPoints + ' Points');
