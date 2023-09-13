@@ -58,6 +58,14 @@ ul li {
   border-radius: 10px;
 }
 
+.withoutinline {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+
+}
+
 
 a {
   text-decoration: none;
@@ -89,7 +97,23 @@ h3 {
 
 }
 
+.mainimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.left-image {
+  float: left;
+  margin-left:350px;
+  margin-top: -300px;
+}
+
+.right-image {
+  float: right;
+  margin-right: 350px;
+  margin-top: -300px;
+}
 
 
 
