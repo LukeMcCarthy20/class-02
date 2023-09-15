@@ -26,6 +26,11 @@ p {
   font-size: 16px;
 }
 
+h1{
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+}
 
 .headers {
   color: blue;
@@ -47,15 +52,37 @@ header {
   margin-bottom: 10px;
 }
 
+.test{
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+  background-color: aqua;
+  margin: 10px;
+  border-bottom: 100px;
+}
+
 nav ul {
   margin-top: 18px;
 }
 
-ul li {
+nav ul li {
   display: inline;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
+}
+
+.notinline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
 }
 
 .withoutinline {
